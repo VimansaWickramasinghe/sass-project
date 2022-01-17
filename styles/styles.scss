@@ -1,16 +1,8 @@
-* {
-    margin: 0;
-    padding: 0px;
-    background-color: rgb(234, 236, 236);
-}
-
-
-
-$primarycolor: rgb(3, 94, 64);
-$Default-font-family: 'Franklin Gothic Medium',
-'Arial Narrow',
-Arial,
-sans-serif;
+//Can use variables. So by keeping
+//the values in variables, 
+//we can re use the same values
+//the variables are in the base file(made accourding to the modules)
+@import './base';
 h1 {
     font-family: $Default-font-family;
 }
