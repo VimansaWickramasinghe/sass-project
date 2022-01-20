@@ -22,4 +22,20 @@ button {
   padding: 20px;
   margin: 20px;
   color: rgb(3, 94, 64);
+}
+
+ul {
+  background-color: aquamarine;
+}
+ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(22, 210, 94);
+}
+ul li a span {
+  color: rgb(3, 94, 64);
+}
+ul li a span:hover {
+  color: brown;
+  font-size: larger;
 }/*# sourceMappingURL=styles.css.map */

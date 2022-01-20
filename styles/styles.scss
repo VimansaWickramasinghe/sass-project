@@ -22,3 +22,30 @@ button {
     margin: 20px;
     color: $primarycolor;
 }
+
+
+//Nesting feature
+//if not, we have to write a
+// seperate code again to change sth inside a nesting
+
+ul {
+    background-color: aquamarine;
+
+    li {
+        a {
+            text-decoration: none;
+            font-weight: 600;
+            color: rgb(22, 210, 94);
+
+            span {
+                &:hover {
+                    color: brown;
+                    font-size: larger;
+                }
+
+                //&mark is used to give the "in side that item meaning"
+                color:$primarycolor;
+            }
+        }
+    }
+}
