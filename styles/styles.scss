@@ -50,6 +50,9 @@ ul {
     }
 }
 
+
+
+//MIXING - in here, we are using a set of common styles using the @mixing word 
 @mixin divcontent($bdrColor) {
     margin: 20px;
     padding: 20px;
