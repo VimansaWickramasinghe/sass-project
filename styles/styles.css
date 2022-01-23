@@ -38,4 +38,18 @@ ul li a span {
 ul li a span:hover {
   color: brown;
   font-size: larger;
+}
+
+.header2 {
+  align-items: center;
+  display: flex;
+}
+
+.content {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid pink;
+}
+.content#sky {
+  background-color: rgb(133, 215, 244);
 }/*# sourceMappingURL=styles.css.map */

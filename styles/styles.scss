@@ -49,3 +49,23 @@ ul {
         }
     }
 }
+
+@mixin divcontent($bdrColor) {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid $bdrColor;
+}
+
+.header2 {
+    align-items: center;
+    display: flex;
+}
+
+.content {
+    @include divcontent(pink);
+
+    &#sky {
+        background-color: rgb(133, 215, 244);
+    }
+
+}
